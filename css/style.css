@@ -1,0 +1,74 @@
+/*universel selector*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+/*id selector*/
+#container{
+    text-align: center;
+    width: 50%;
+    background-color: red;
+    margin: 10% auto;
+    padding: 20px;
+}
+/*decentor selector*/
+#container h1{
+    font-size: 50px;
+    margin: 20px 0px;
+}
+
+/*grouping selector*/
+input,label{
+    display: block;
+    width: 80%;
+    margin: auto;
+
+}
+
+label{
+
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+input{
+    padding: 10px;
+    margin: 10px auto;
+}
+
+p{
+    font-size: 18px;
+
+}
+/*decentor selector*/
+p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+/*atrribute selector*/
+
+input[ type="submit"]{
+    width: 30%;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+/*pseudo class selector*/
+input[ type="submit"]:hover{
+    background-color: white;
+    color: red;
+}
+
+/*psuodo selector*/
+input::placeholder{
+    color: red;
+
+}

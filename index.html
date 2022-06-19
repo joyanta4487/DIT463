@@ -5,19 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login page </title>
+    
+    <!--Custom CSS File-->
+    <link rel="stylesheet" href="css/style.css">
+    
+
+
 </head>
+
 <body>
-   <div align="center"> 
+   <div id="container"> 
         <h1 
-        >login page</h1>
-        <hr/>
-        <form><br> 
+        >Login Page</h1>
+        
+        <form>
             <label for="Username">
-                UserName</label> <br />
-            <input type="text"name "username" value="Joyanta" placeholder=" Enter Your Username"/> <br /><br>
-            <label for="password">Password</label> <br />
-            <input type="password" name="Password" placeholder="Password" required/> <br /><br>
-            <input type="Submit"  value="Login  "/>
+                UserName</label> 
+            <input type="text"name "username"  placeholder=" Enter Your Username"/> 
+            <label for="password">Password</label> 
+            <input type="password" name="Password" placeholder="Password" required/> 
+            <input type="Submit"  value="Login  " id="submit-btn"/>
         </form>
 
         <p> Don't have an Account <a href="project/register.html">Please Register</a> </p>
